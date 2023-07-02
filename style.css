@@ -69,7 +69,7 @@ ul li .active {
 
 /* Home Page */
 #Home {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     position: relative;
 }
@@ -182,7 +182,7 @@ ul li .active {
 
 /* About Page Styling */
 #About {
-    height: 100vh;
+    height:90vh;
     width: 100vw;
 
 }
@@ -238,7 +238,7 @@ ul li .active {
 
 /* Contact page start */
 #Contact {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     position: relative;
 }
@@ -431,7 +431,7 @@ ul li .active {
 
     .contact-main textarea {
         height: 12rem;
-        width: 15.3rem;
+        width: 17rem;
 
     }
 

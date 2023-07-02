@@ -69,7 +69,7 @@ ul li .active {
 
 /* Home Page */
 #Home {
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     position: relative;
 }
@@ -181,51 +181,165 @@ ul li .active {
 /* Home Page End */
 
 /* About Page Styling */
-#About{
-   height: 100vh;
+#About {
+    height: 100vh;
     width: 100vw;
-    
+
 }
-.about-main{
+
+.about-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
- justify-content: center;
-    color:var(--text-color);
+    justify-content: center;
+    color: var(--text-color);
     flex-wrap: wrap;
     text-align: center;
-    gap:1.5rem
+    gap: 1.5rem;
 }
-.about-main h1{
+
+.about-main h1 {
     font-size: 3rem;
 }
-.span{
-   color: var(--main-color);
+
+.span {
+    color: var(--main-color);
 }
-.image img{
-    border:4px solid var(--main-color) ;
+
+.image img {
+    border: 4px solid var(--main-color);
     border-radius: 100%;
 }
-.about-main h3{
+
+.about-main h3 {
     font-size: 2rem;
 }
-.about-main p{
+
+.about-main p {
     margin-top: -1rem;
 }
-.about-main button{
+
+.about-main button {
     background: var(--main-color);
-        color: black;
-        font-weight: bold;
-        font-size: 1rem;
-        padding: 0.8rem 2.1rem;
-        border-radius: 0.5rem;
-        outline: none;
-        border: none;
-        cursor: pointer;
-    
-    
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.8rem 2.1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+
 }
+
+/* About page end */
+
+/* Contact page start */
+#Contact {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.contact-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contact-main h1 {
+    font-size: 3rem;
+
+}
+
+.contact-main input {
+    padding: 0.5rem 2.5rem;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    color: white;
+    margin: 0rem 0.5rem;
+    border-radius: 0.5rem;
+
+
+}
+
+.contact-main textarea {
+    height: 15rem;
+    width: 32rem;
+    resize: none;
+    background: transparent;
+    padding: 1rem;
+    border: 2px solid var(--main-color);
+    border-radius: 0.5rem;
+    color: var(--text-color);
+}
+
+::-webkit-input-placeholder {
+    color: var(--text-color);
+}
+
+.contact-main button {
+    background: var(--main-color);
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.7rem 2.1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Contact Page end */
+/* footer style stART */
+.footer {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 10vh;
+    background: #0b2639;
+    color: var(--text-color);
+    
+
+}
+
+.footer-txt {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.footer-icon{
+    background: var(--main-color);
+    border-radius: 0.3rem;
+    text-align: center;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-icon i{
+    font-size: 1.4rem;
+} 
+.footer-icon a{
+    text-decoration: none;
+} 
 
 
 
@@ -298,13 +412,50 @@ ul li .active {
         font-size: 1rem;
         color: var(--main-color)
     }
-    .image img{
+
+    .image img {
         width: 8rem;
     }
-    .about-main p{
+
+    .about-main p {
         font-size: small;
         padding: 0rem 1rem;
     }
+
+    .contact-main h1 {
+        font-size: 2.5rem;
+        margin-top: 1.7rem;
+    }
+
+
+    .contact-main textarea {
+        height: 12rem;
+        width: 15.3rem;
+
+    }
+
+    .name-email input {
+        margin-top: 0.5rem;
+    }
+
+    .mobile-emailSub {
+        margin-top: -0.9rem;
+    }
+
+    .mobile-emailSub input {
+        margin-top: 0.5rem;
+    }
+    .footer-txt p{
+     text-align: center;
+     padding:0rem 0.5rem;
+    }
+    .footer-icon{
+        height: 1.4rem;
+        width: 1.6rem;
+   }
+    .footer-icon i{
+        font-size: 1.1rem;
+    } 
 
 }
 
@@ -317,11 +468,13 @@ ul li .active {
     .btn-1 {
         margin-bottom: 1rem;
     }
+
     .home-footer {
         top: 96%;
         left: 50%;
 
     }
+
     .icon a {
         display: flex;
         align-items: center;
@@ -330,20 +483,23 @@ ul li .active {
         text-align: center;
         padding: 0.5rem 0.5rem;
     }
+
     .icon a .bx {
         font-size: 0.7rem;
         color: var(--main-color)
     }
-   
+
 
 
 }
-@media screen and (max-width:340px){
+
+@media screen and (max-width:340px) {
     .home-footer {
         top: 95%;
         left: 50%;
 
     }
+
     .icon a {
         display: flex;
         align-items: center;
@@ -352,16 +508,19 @@ ul li .active {
         text-align: center;
         padding: 0.3rem 0.3rem;
     }
+
     .icon a .bx {
         font-size: 0.6rem;
         color: var(--main-color)
     }
-    ul li  {
+
+    ul li {
         margin-right: 10rem;
     }
+
     .img img {
         width: 10rem;
-    
+
     }
 }
 
@@ -375,24 +534,29 @@ ul li .active {
     .btn-1 {
         margin-bottom: 1rem;
     }
+
     .home-footer {
         top: 95%;
         left: 50%;
 
     }
+
     .icon a .bx {
         font-size: 0.5rem;
         color: var(--main-color)
     }
-    .about-main p{
+
+    .about-main p {
         font-size: smaller;
     }
-    .about-main h3{
+
+    .about-main h3 {
         font-size: 1.7rem;
     }
+
     .home-left h1 {
         font-size: 2.5rem;
-        
+
     }
 
 

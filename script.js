@@ -12,7 +12,10 @@ a.forEach((v)=>{
         v.classList.add("activse");
         v.classList.remove("active");
         ul.classList.remove("show");
-        icon.classList.replace("fa-close", "fa-bars");
+        setTimeout(()=>{
+            icon.classList.replace("fa-close", "fa-bars");
+        })
+        
     }
 })
 

@@ -4,13 +4,15 @@ const a=document.querySelectorAll("a");
 const actives=document.querySelector("active");
 let open = true;
 
+
+
+
 a.forEach((v)=>{
     v.onclick=()=>{
-        v.classList.add("active");
+        v.classList.add("activse");
         v.classList.remove("active");
         ul.classList.remove("show");
         icon.classList.replace("fa-close", "fa-bars");
-       
     }
 })
 

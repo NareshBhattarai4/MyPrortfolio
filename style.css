@@ -339,6 +339,7 @@ ul li .active {
 } 
 .footer-icon a{
     text-decoration: none;
+    color: var(--text-color);
 } 
 
 

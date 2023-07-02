@@ -2,16 +2,7 @@ const icon = document.getElementById("icon");
 const ul = document.getElementById("ul");
 const a=document.querySelectorAll("a");
 const actives=document.querySelector("active");
-
-const ficon=document.getElementById("footer-icon");
 let open = true;
-
-
-ficon.addEventListener("click",()=>{
-  
-window.screenY=1000;
-   
-})
 
 a.forEach((v)=>{
     v.onclick=()=>{

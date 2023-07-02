@@ -14,7 +14,7 @@ a.forEach((v)=>{
         ul.classList.remove("show");
         setTimeout(()=>{
             icon.classList.replace("fa-close", "fa-bars");
-        })
+        },0)
         
     }
 })

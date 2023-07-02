@@ -69,6 +69,7 @@ ul li .active {
 
 /* Home Page */
 #Home {
+    margin-top:-5rem;
     height: 90vh;
     width: 100vw;
     position: relative;
@@ -182,6 +183,7 @@ ul li .active {
 
 /* About Page Styling */
 #About {
+    margin-top:-5rem;
     height:90vh;
     width: 100vw;
 
@@ -238,6 +240,7 @@ ul li .active {
 
 /* Contact page start */
 #Contact {
+    margin-top:-5rem;
     height: 90vh;
     width: 100vw;
     position: relative;

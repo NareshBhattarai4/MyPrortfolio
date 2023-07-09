@@ -39,3 +39,10 @@ a.forEach((v)=>{
         
     }
 })
+
+var typed = new Typed('#element', {
+    strings: ['UPDATE SOON.'],
+    typeSpeed: 50,
+    loop:true,
+    backSpeed: 30,
+  });

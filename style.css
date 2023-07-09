@@ -344,6 +344,20 @@ ul li .active {
     text-decoration: none;
     color: var(--text-color);
 } 
+#Gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    color:var(--text-color);
+    position: relative;
+    flex-wrap: wrap;
+}
+#element{
+    font-size: 5rem;
+}
+
 
 
 
@@ -460,6 +474,9 @@ ul li .active {
     .footer-icon i{
         font-size: 1.1rem;
     } 
+     #element{
+        font-size: 2rem;
+    }
 
 }
 
